@@ -1,0 +1,70 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+/* header */
+.header {
+    display: flex;
+    background-color: black;
+    justify-content: end;
+}
+
+.name, .links {
+    color: white;
+    font-weight: bolder;
+}
+
+.hordeimg {
+    margin: 8px;
+}
+
+.name {
+    align-self: center;
+    padding-left: 16px;
+    font-size: 1.75rem;
+}
+
+.links {
+    display: flex;
+    margin: 0;
+    margin-left: auto;
+    list-style-type: none;
+    gap: 12px;
+    padding: 16px;
+    align-items: center;
+}
+/* header */
+
+/* first */
+.first {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    background-color: black;
+    padding: 20px 0;
+}
+
+.left {
+    color: white;
+    padding: 16px;
+}
+
+.right {
+    padding: 16px;
+}
+
+button {
+    background-color: brown;
+    padding: 0 8px;
+    color: white;
+    height: 30px;
+    width: 60px;
+    border-radius: 8px;
+    border-style: none;
+}
+
+button:hover {
+    background-color: darkred;
+}
